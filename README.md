@@ -7,7 +7,7 @@ PyAutoGUI is a  cross-platform GUI automation Python module for human beings. Us
 
 Full documentation available at https://pyautogui.readthedocs.org
 
-Simplified Chinese documentation available at https://muxuezi.github.io/posts/doc-pyautogui.html
+Simplified Chinese documentation available at https://github.com/asweigart/pyautogui/blob/master/docs/simplified-chinese.ipynb
 
 Source code available at https://github.com/asweigart/pyautogui
 
@@ -20,7 +20,7 @@ PyAutoGUI supports Python 2 and 3. If you are installing PyAutoGUI from PyPI usi
 
 Windows has no dependencies. The Win32 extensions do not need to be installed.
 
-macOS needs the rubicon-objc module installed (in that order).
+macOS needs the pyobjc-core and pyobjc module installed (in that order).
 
 Linux needs the python3-xlib (or python-xlib for Python 2) module installed.
 
@@ -123,3 +123,8 @@ The three major operating systems (Windows, macOS, and Linux) each have differen
 
 * On Linux, PyAutoGUI uses the `Xlib` module to access the X11 or X Window System.
 
+
+Support
+-------
+
+If you find this project helpful and would like to support its development, [consider donating to its creator on Patreon](https://www.patreon.com/AlSweigart).
